@@ -1,7 +1,7 @@
 
 
 :root {
-    --gradient: linear-gradient(180deg, #0C041E -8.41%, #FF3933 98.85%);
+    --gradient: linear-gradient(180deg, #0C041E -14.41%, #ff0073dc 98.85%);
 }
 
 * {
@@ -30,8 +30,8 @@
 
 .upload-file {
     width: 60vw;
-    height: 3rem;
-    background-color: #fff3;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 4rem;
     padding: 0 1.4rem;
 }
@@ -47,7 +47,7 @@
 
 .tooltip::before,
 .tooltip::after {
-    color: #111;
+    color: #000000;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -15px);
@@ -134,21 +134,23 @@
     width: 100%;
     padding: 1.5rem;
     background-color: transparent;
-
-    color: #fff;
+    color: #000000;
     font: 500 1.2rem sans-serif;
-    border: 2px solid #FF3933;
-    
+    border: 3px solid #000000;
     resize: none;
     outline: none;
 }
 
 .result textarea:focus {
-    border: 1px solid #fff;
+    border: 1px solid #05000000;
 }
 
 .result .arrow {
     width: 3rem;
     height: 3rem;
     margin: 0 1rem;
+}
+
+#text{
+    color: #fd0b0b;
 }

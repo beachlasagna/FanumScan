@@ -7,9 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Camera to .txt</title>
+    <title>FanumScan</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.min.js" defer></script> -->
     <script src="https://cdn.jsdelivr.net/gh/naptha/tesseract.js@1.0.10/dist/tesseract.min.js" defer></script>
     <script src="script.js" defer></script>
 </head>
@@ -17,7 +16,7 @@
 <body>
     <div class="app">
         <header>
-            <h1>Convert image to Editable Text</h1>
+            <h1>Image to Text using Optical Character technology</h1>
         </header>
         <main>
             <section class="upload-file flex-between">
@@ -39,7 +38,7 @@
                     <p class="tooltip" title="Copy text." id="copy-text">
                         <img src="images/copy.png" alt="">
                     </p>
-                    <textarea id="converted-text" placeholder="Converted text of image"></textarea>
+                    <textarea id="converted-text"  style="color: black;"placeholder=" Your text here"></textarea>
                 </div>
             </section>
         </main>
